@@ -1,4 +1,17 @@
-<app-default-layout-header></app-default-layout-header>
-<app-default-layout-navbar></app-default-layout-navbar>
-<router-outlet></router-outlet>
-<app-default-layout-footer></app-default-layout-footer>
+<div class="wrapper" fxLayout="column" fxLayoutAlign="space-around center">
+  <div class="header" fxLayout="row" fxLayoutAlign="space-between center">
+    <app-default-layout-header></app-default-layout-header>
+  </div>
+  <div class="main" class="header" fxLayout="row">
+    <div class="sidebar" fxFlex="20">
+      <app-admin-layout-sidebar></app-admin-layout-sidebar>
+    </div>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <div class="footer">
+    <app-default-layout-footer></app-default-layout-footer>
+  </div>
+</div>

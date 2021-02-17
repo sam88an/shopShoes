@@ -1,1 +1,55 @@
-<p>default-layout-header works!</p>
+<mat-toolbar>
+  <span class="logo">
+    <img
+      class="logo-img"
+      src="../../../../assets/images/Logo.png"
+      alt=""
+      fxFlex="80"
+    />
+  </span>
+  <span class="menu">
+    <button mat-icon-button class="menu-button" color="accent" routerLink="/">
+      Home
+    </button>
+    <button
+      mat-icon-button
+      class="menu-button"
+      color="warn"
+      routerLink="/shop/productdetail"
+    >
+      Product
+    </button>
+    <button
+      mat-icon-button
+      class="menu-button"
+      color="warn"
+      routerLink="/shop/about"
+    >
+      About
+    </button>
+    <button
+      mat-icon-button
+      class="menu-button"
+      color="warn"
+      routerLink="/shop/contact"
+    >
+      Contact
+    </button>
+    <button
+      mat-icon-button
+      class="menu-button"
+      color="warn"
+      routerLink="/shop/cart"
+    >
+      Cart
+    </button>
+    <button
+      mat-icon-button
+      class="menu-button"
+      color="warn"
+      routerLink="/shop/checkout"
+    >
+      Checkout
+    </button>
+  </span>
+</mat-toolbar>

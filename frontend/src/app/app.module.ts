@@ -1,3 +1,4 @@
+import { AdminModule } from './modules/admin/admin.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -40,6 +41,7 @@ import { HomeModule } from './modules/home/home.module';
     RouterModule,
     FlexLayoutModule,
     HomeModule,
+    AdminModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

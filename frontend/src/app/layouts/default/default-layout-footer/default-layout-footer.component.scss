@@ -1,0 +1,16 @@
+footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .bottom {
+    background-color: #fff;
+    text-align: center;
+  }
+}
+footer > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

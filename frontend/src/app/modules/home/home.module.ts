@@ -7,9 +7,20 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { SharedModule } from 'src/app/shared/shared.module';
 import { ProductComponent } from './product/product.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
-  declarations: [ProductComponent, ProductDetailComponent],
+  declarations: [
+    ProductComponent,
+    ProductDetailComponent,
+    AboutComponent,
+    ContactComponent,
+    CartComponent,
+    CheckoutComponent,
+  ],
   imports: [
     CommonModule,
     SharedModule,
